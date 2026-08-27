@@ -20,7 +20,7 @@
         nav {
             background: #17324d;
             color: white;
-            padding: 18px 8%;
+            padding: 12px 8%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -29,8 +29,16 @@
             z-index: 1000;
         }
         .logo {
-            font-size: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 22px;
             font-weight: bold;
+        }
+        .logo img {
+            height: 48px;
+            width: auto;
+            border-radius: 4px;
         }
         nav ul {
             list-style: none;
@@ -183,6 +191,12 @@
                 flex-wrap: wrap;
                 justify-content: center;
             }
+            .logo {
+                font-size: 18px;
+            }
+            .logo img {
+                height: 40px;
+            }
             .hero-content h1 {
                 font-size: 38px;
             }
@@ -196,7 +210,10 @@
 
     <!-- Navigation -->
     <nav>
-        <div class="logo">Gangaikarai Minerals</div>
+        <div class="logo">
+            <img src="company%20logo.jpeg" alt="Gangaikarai Minerals Logo">
+            Gangaikarai Minerals
+        </div>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
