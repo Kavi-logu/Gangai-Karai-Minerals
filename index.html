@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Gangaikarai Minerals | Quartz Powder Manufacturer</title>
-
     <style>
         * {
             margin: 0;
@@ -13,15 +11,12 @@
             box-sizing: border-box;
             scroll-behavior: smooth;
         }
-
         body {
             font-family: Arial, sans-serif;
             color: #222;
             background: #f7f7f7;
             line-height: 1.6;
         }
-
-        /* Navigation */
         nav {
             background: #17324d;
             color: white;
@@ -33,40 +28,29 @@
             top: 0;
             z-index: 1000;
         }
-
         .logo {
             font-size: 24px;
             font-weight: bold;
         }
-
         nav ul {
             list-style: none;
             display: flex;
             gap: 25px;
         }
-
         nav ul li a {
             color: white;
             text-decoration: none;
             font-weight: bold;
         }
-
         nav ul li a:hover {
             text-decoration: underline;
         }
-
-        /* Hero */
         .hero {
             min-height: 85vh;
-            background: linear-gradient(
-                rgba(0, 0, 0, 0.55),
-                rgba(0, 0, 0, 0.55)
-            ),
-            url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80");
-
+            background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+                        url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80");
             background-size: cover;
             background-position: center;
-
             display: flex;
             justify-content: center;
             align-items: center;
@@ -74,22 +58,18 @@
             color: white;
             padding: 30px;
         }
-
         .hero-content h1 {
             font-size: 55px;
             margin-bottom: 15px;
         }
-
         .hero-content h2 {
             font-size: 28px;
             margin-bottom: 15px;
         }
-
         .hero-content p {
             font-size: 19px;
             margin-bottom: 25px;
         }
-
         .btn {
             display: inline-block;
             background: #f4b942;
@@ -98,44 +78,39 @@
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
+            transition: 0.3s;
         }
-
-        /* Common Section */
+        .btn:hover {
+            background: #e0a830;
+            transform: translateY(-2px);
+        }
         section {
             padding: 70px 8%;
         }
-
         .section-title {
             text-align: center;
             font-size: 35px;
             margin-bottom: 35px;
             color: #17324d;
         }
-
-        /* About */
         .about {
             background: white;
             text-align: center;
         }
-
         .about p {
             max-width: 900px;
             margin: auto;
             font-size: 18px;
         }
-
-        /* Products */
         .products {
             background: #eef2f5;
         }
-
         .product-container {
             display: flex;
             justify-content: center;
             gap: 25px;
             flex-wrap: wrap;
         }
-
         .card {
             background: white;
             width: 280px;
@@ -144,92 +119,44 @@
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.12);
         }
-
         .card h3 {
             color: #17324d;
             margin-bottom: 15px;
             font-size: 23px;
         }
-
         .card p {
             color: #555;
         }
-
-        /* Industries */
         .industries {
             background: white;
         }
-
         .industry-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
         }
-
         .industry {
             padding: 30px;
             background: #f1f4f6;
             text-align: center;
             border-radius: 10px;
         }
-
         .industry h3 {
             color: #17324d;
             margin-bottom: 10px;
         }
-
-        /* Manufacturing */
-        .manufacturing {
-            background: #eef2f5;
-            text-align: center;
-        }
-
-        .manufacturing p {
-            max-width: 900px;
-            margin: auto;
-            font-size: 18px;
-        }
-
-        /* Why Us */
-        .why-us {
-            background: white;
-        }
-
-        .why-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .why-card {
-            width: 220px;
-            padding: 25px;
-            text-align: center;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-        }
-
-        .why-card h3 {
-            color: #17324d;
-        }
-
-        /* Contact */
         .contact {
             background: #17324d;
             color: white;
             text-align: center;
         }
-
         .contact .section-title {
             color: white;
         }
-
         .contact p {
             margin: 10px;
             font-size: 18px;
         }
-
         .contact-btn {
             margin-top: 20px;
             display: inline-block;
@@ -240,46 +167,36 @@
             text-decoration: none;
             font-weight: bold;
         }
-
-        /* Footer */
         footer {
             background: #0d1f30;
             color: white;
             text-align: center;
             padding: 20px;
         }
-
-        /* Mobile */
         @media (max-width: 700px) {
-
             nav {
                 flex-direction: column;
                 gap: 15px;
             }
-
             nav ul {
                 gap: 12px;
                 flex-wrap: wrap;
                 justify-content: center;
             }
-
             .hero-content h1 {
                 font-size: 38px;
             }
-
             .hero-content h2 {
                 font-size: 22px;
             }
         }
     </style>
 </head>
-
 <body>
 
     <!-- Navigation -->
     <nav>
         <div class="logo">Gangaikarai Minerals</div>
-
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -289,62 +206,83 @@
         </ul>
     </nav>
 
-
     <!-- Home -->
     <section class="hero" id="home">
-
         <div class="hero-content">
-
             <h1>Gangaikarai Minerals</h1>
-
             <h2>Quality Quartz Powder Manufacturer</h2>
-
-            <p>
-                High-quality Quartz Powder from
-                0 to 500 Mesh for industrial applications.
-            </p>
-
-            <a href="#products" class="btn">
-                Explore Products
-            </a>
-
+            <p>High-quality Quartz Powder from 0 to 500 Mesh for industrial applications.</p>
+            <a href="#products" class="btn">Explore Products</a>
         </div>
-
     </section>
-
 
     <!-- About -->
     <section class="about" id="about">
-
         <h2 class="section-title">About Us</h2>
-
         <p>
-            Gangaikarai Minerals is engaged in the manufacturing
-            and supply of quality Quartz Powder for various
-            industrial applications. We provide Quartz Powder
-            in different mesh sizes according to customer
-            requirements.
+            Gangaikarai Minerals is engaged in the manufacturing and supply of quality Quartz Powder for various industrial applications. We provide Quartz Powder in different mesh sizes according to customer requirements.
         </p>
-
         <br>
-
         <p>
-            Our products are supplied to industries including
-            Steel & Alloy, Glass, Paint and Tiles.
+            Our products are supplied to industries including Steel & Alloy, Glass, Paint and Tiles.
         </p>
-
     </section>
-
 
     <!-- Products -->
     <section class="products" id="products">
-
         <h2 class="section-title">Our Products</h2>
-
         <div class="product-container">
-
             <div class="card">
                 <h3>Quartz Powder</h3>
-                <p>
-                    High-quality quartz powder suitable
-                    for various
+                <p>High-quality quartz powder suitable for various industrial applications. Available in different mesh sizes.</p>
+            </div>
+            <div class="card">
+                <h3>0-500 Mesh</h3>
+                <p>We supply Quartz Powder from 0 to 500 Mesh as per customer requirements.</p>
+            </div>
+            <div class="card">
+                <h3>Industrial Grade</h3>
+                <p>Premium quality powder for Steel, Glass, Paint, Tiles and other industries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries -->
+    <section class="industries" id="industries">
+        <h2 class="section-title">Industries We Serve</h2>
+        <div class="industry-container">
+            <div class="industry">
+                <h3>Steel & Alloy</h3>
+                <p>Used in steel manufacturing and alloy production.</p>
+            </div>
+            <div class="industry">
+                <h3>Glass</h3>
+                <p>High purity quartz for glass industry.</p>
+            </div>
+            <div class="industry">
+                <h3>Paint</h3>
+                <p>Used as filler in paints and coatings.</p>
+            </div>
+            <div class="industry">
+                <h3>Tiles</h3>
+                <p>Essential raw material for ceramic tiles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Gangaikarai Minerals</p>
+        <p>Aravakurichi, Karur, Tamil Nadu</p>
+        <p>Email: info@gangaikaraiminerals.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+        <a href="mailto:info@gangaikaraiminerals.com" class="contact-btn">Send Enquiry</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gangaikarai Minerals. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
